@@ -1,7 +1,7 @@
 // Styles
 import { Container } from "@/styles/Global";
 import { Text } from "@/styles/Text";
-import { Button, ButtonProjects } from "@/styles/Buttons";
+import { Button, ButtonProjects, ButtonTecnologies } from "@/styles/Buttons";
 
 // Components
 import { Stack } from "@/components/Stack";
@@ -43,9 +43,9 @@ export const Home = (): JSX.Element => {
               <ButtonProjects as="a" href="#projetos">
                 Projetos
               </ButtonProjects>
-              <Button as="a" href="#tecnologias" type="btLink" color="grey5">
+              <ButtonTecnologies as="a" href="#tecnologias" type="btLink" color="grey5">
                 Tecnologias
-              </Button>
+              </ButtonTecnologies>
             </HeaderButtonsArea>
           </HeaderContent>
         </Container>
