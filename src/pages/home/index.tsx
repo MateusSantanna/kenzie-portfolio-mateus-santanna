@@ -1,7 +1,7 @@
 // Styles
 import { Container } from "@/styles/Global";
 import { Text } from "@/styles/Text";
-import { Button } from "@/styles/Buttons";
+import { Button, ButtonProjects } from "@/styles/Buttons";
 
 // Components
 import { Stack } from "@/components/Stack";
@@ -40,9 +40,9 @@ export const Home = (): JSX.Element => {
               desenvolvendo habilidades
             </Text>
             <HeaderButtonsArea>
-              <Button as="a" href="#projetos">
+              <ButtonProjects as="a" href="#projetos">
                 Projetos
-              </Button>
+              </ButtonProjects>
               <Button as="a" href="#tecnologias" type="btLink" color="grey5">
                 Tecnologias
               </Button>
